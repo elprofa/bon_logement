@@ -6,7 +6,6 @@ import data from './data'
 
 const MyCaroussel = () => {
   const isCarousel = React.useRef(null)
-console.log(data[0].imgUrl)
   return (
     <View>
       <Carousel

@@ -74,9 +74,9 @@ function MyAppBar() {
                                         
                                         idMenuState==navig.id?(
                                             
-                                                <Box bg="#ffdd15" w="100%" key={index+"NavigationMenu"}>
+                                                <Box style={{backgroundColor : "rgba(255,221,21,.8)"}} w="100%" key={index+"NavigationMenu"}>
                                                     <Pressable  onPress={()=>handleSubMenu(navig.id,navig.sousNavigation)}>
-                                                        <Text  py={3} pl={2} color="#0c2c4b">
+                                                        <Text  py={3} pl={2} style={{fontWeight:"bold"}} color="#0c2c4b">
                                                             {navig.libelle}
                                                         </Text>
                                                     </Pressable>
@@ -86,7 +86,7 @@ function MyAppBar() {
                                         ):(
                                                 <Box key={index+"NavigationMenu"} w="100%">
                                                     <Pressable  onPress={()=>handleSubMenu(navig.id,navig.sousNavigation)}>
-                                                        <Text  py={3} pl={2}>
+                                                        <Text  py={3} pl={2} style={{fontWeight:"bold"}}>
                                                             {navig.libelle}
                                                         </Text>
                                                         
@@ -109,7 +109,7 @@ function MyAppBar() {
                                             return(
                                             <Box key={"subMenuItem"+index} w="100%">
                                                 <Pressable  onPress={()=>handleSubMenu(navig.id,navig.sousNavigation)}>
-                                                    <Text  py={3} pl={2} color="#0c2c4b">
+                                                    <Text  py={3} pl={2} style={{fontWeight:"bold"}} color="#0c2c4b">
                                                     {myItem.libelle1}
                                                     </Text>
                                                 </Pressable>

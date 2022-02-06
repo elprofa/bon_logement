@@ -2,7 +2,7 @@ export default data = [
     {
       title: "Aenean leo",
       body: "",
-      imgUrl: "~/assets/logo.png"
+      imgUrl: "https://raw.githubusercontent.com/elprofa/bon_logement/main/assets/home.jpg"
     },
     {
       title: "In turpis",
