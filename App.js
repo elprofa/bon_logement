@@ -15,6 +15,7 @@ import {
 import MyAppBar from "./components/MyAppBar";
 import Accueil from './components/Accueil'
 import MyCaroussel from "./components/MyCaroussel";
+import BlockSearchInput from "./components/BlockSearchInput";
 
 // Define the config
 const config = {
@@ -31,6 +32,7 @@ export default function App() {
       <MyAppBar />
       <Accueil />
       <MyCaroussel />
+      <BlockSearchInput />
       
     </NativeBaseProvider>
   );

@@ -1,17 +1,17 @@
 export default data = [
     {
-      title: "Aenean leo",
+      title: "",
       body: "",
       imgUrl: "https://raw.githubusercontent.com/elprofa/bon_logement/main/assets/home.jpg"
     },
     {
-      title: "In turpis",
+      title: "",
       body: "",
-      imgUrl: "https://picsum.photos/id/10/200/300"
+      imgUrl: "https://raw.githubusercontent.com/elprofa/bon_logement/main/assets/home1.jpg"
     },
     {
-      title: "Lorem Ipsum",
+      title: "",
       body: "",
-      imgUrl: "https://picsum.photos/id/12/200/300"
+      imgUrl: "https://raw.githubusercontent.com/elprofa/bon_logement/main/assets/home2.jpg"
     }
   ]
