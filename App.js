@@ -12,9 +12,9 @@ import {
   VStack,
   Code,
 } from "native-base";
-import NativeBaseIcon from "./components/NativeBaseIcon";
 import MyAppBar from "./components/MyAppBar";
-import Accueil from "./components/Accueil";
+import Accueil from './components/Accueil'
+import MyCaroussel from "./components/MyCaroussel";
 
 // Define the config
 const config = {
@@ -30,6 +30,8 @@ export default function App() {
     <NativeBaseProvider theme={theme}>
       <MyAppBar />
       <Accueil />
+      <MyCaroussel />
+      
     </NativeBaseProvider>
   );
 }
