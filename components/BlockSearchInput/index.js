@@ -7,7 +7,7 @@ function BlockSearchInput() {
     <>
         <Box alignItems="center" mt={-20}>
             <Input mx="0" placeholder="Recherche ici" size="md" style={{fontWeight:"bold"}} w="95%" />
-            <Button small danger bg="#ff0000" w="95%" >
+            <Button small danger bg="#ff0000" w="95%" mt={2}>
                 <Text>RECHERCHER</Text>
             </Button>
         </Box>
