@@ -7,8 +7,8 @@ function Accueil() {
   return (
       <>
         <Center>
-            <Center height={100}>
-                <Image style={logoAccueil} style={{width:200,height:100}} source={require("../../assets/logo.png")} alt="Alternate Text" />
+            <Center height={100} mt={-4}>
+                <Image style={logoAccueil} style={{width:170,height:90}} source={require("../../assets/logo.png")} alt="Alternate Text" />
             </Center>
         </Center> 
       </>

@@ -25,12 +25,13 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.29,
     shadowRadius: 4.65,
     width: 600,
-    height: 310
+    height: 250
   },
   image: {
     width:ITEM_WIDTH,
     aspectRatio:1.7, 
     resizeMode: 'contain',
+    height: 170
   },
   header: {
     color: "#222",
