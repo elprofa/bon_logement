@@ -1,19 +1,20 @@
+import { Box } from 'native-base'
 import React from 'react'
 import { View, Text, StyleSheet, Dimensions, Image } from "react-native"
 
-export const SLIDER_WIDTH = Dimensions.get('window').width
-export const ITEM_WIDTH = Math.round(SLIDER_WIDTH )
+export const SLIDER_WIDTH = Dimensions.get('window').width*20
+export const ITEM_WIDTH = Math.round(SLIDER_WIDTH )*20
 
 const CarouselCardItem = ({ item, index }) => {
   return (
-    <View style={styles.container} key={index}>
+    <Box style={styles.container} key={index} mt={-4}>
       <Image
         source={{ uri: item.imgUrl }}
         style={styles.image}
       />
       <Text style={styles.header}>{item.title}</Text>
       <Text style={styles.body}>{item.body}</Text>
-    </View>
+    </Box>
   )
 }
 const styles = StyleSheet.create({
@@ -25,13 +26,13 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.29,
     shadowRadius: 4.65,
     width: 600,
-    height: 250
+    height: 290,
   },
   image: {
     width:ITEM_WIDTH,
     aspectRatio:1.7, 
     resizeMode: 'contain',
-    height: 170
+    height: 220
   },
   header: {
     color: "#222",
